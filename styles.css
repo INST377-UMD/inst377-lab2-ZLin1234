@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- page1 ---------- */
+.form-page {
+    background-color: #ECBDC4 ;
+}
+
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #F5dce0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.form-input {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* submit */
+#submit-btn {
+    background-color: #212121;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* page 2*/
+.thank-you-page {
+    background-color: #faf3eb;
+    text-align: center;
+}
+
+
+
+.thank-you-container h1 {
+    text-align: center;
+    color: #2b2b2a;
+}
+
+.thank-you-container img {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+}
